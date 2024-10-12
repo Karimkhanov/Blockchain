@@ -1,0 +1,91 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getNote",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_pureNote",
+						"type": "string"
+					}
+				],
+				"name": "pureNote",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_note",
+						"type": "string"
+					}
+				],
+				"name": "setNote",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Note.sol": "Note"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Note.sol": {
+			"keccak256": "0x763d7b04deb1a03e162fb8b6b12011a48451d7c44e9411d604ea38d37fd1b461",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://1e5a4d9220b381a0a075204ac30a6cf109e5653bfaed92567125d36a1d59aa1f",
+				"dweb:/ipfs/QmQY3uUAz7a2bwP5DoH4z8TPUSNkW3SdTJAzL3mA2jZp4K"
+			]
+		}
+	},
+	"version": 1
+}
